@@ -1,8 +1,10 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "Thinking mobile only"
 date:   2017-12-27 11:55:12 +1000
 categories: jekyll update
+heroImageUrl: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5Fre_tPGDZdI_oh-osVmsVfs6-V_sd1a6S2qyCedcNSpYjRx_
+blurb: Consectetur porro nam cumque modi labore iure sed velit? Asperiores unde libero iusto mollitia sunt necessitatibus?
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 

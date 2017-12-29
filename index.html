@@ -1,3 +1,6 @@
+---
+layout: home
+---
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -139,29 +142,25 @@
           </div>
         </div>
       </header>
-      <div class="main section-padding" style="display: none">
+      <div class="main section-padding">
         <div class="container container--small main__lead">
           <section class="recent">
             <h1 class="text-centered title">Recent work</h1>
             <div class="recent__wrap">
-              <div class="recent__item">
-                <div class="recent__desktop">
-                  <div class="recent__desktop-buttons"></div>
-                  <div class="recent__desktop-search"></div>
-                  <div class="recent__desktop-screen" style="background-image: url(assets/img/ldu-desktop.png)"></div>
+              {% for post in site.posts %}
+                <div class="recent__item">
+                  <div class="recent__desktop">
+                    <div class="recent__desktop-buttons"></div>
+                    <div class="recent__desktop-search"></div>
+                    <div class="recent__desktop-screen" style="background-image: url(assets/img/ldu-desktop.png)"></div>
+                  </div>
+                  <div class="recent__mobile">
+                    <div style="background-image: url(assets/img/ldu-mobile.png)"></div>
+                  </div>
+                  <h2>This is a title</h2>
+                  <p>Dolor nihil animi iure aut quidem. Ut neque alias ducimus repellat facere consequatur, ipsum Deleniti ea esse veritatis reiciendis quia magnam? Mollitia impedit dolor dolorum quod consequuntur id Esse illum.</p>
                 </div>
-                <div class="recent__mobile">
-                  <div style="background-image: url(assets/img/ldu-mobile.png)"></div>
-                </div>
-                <h2>This is a title</h2>
-                <p>Dolor nihil animi iure aut quidem. Ut neque alias ducimus repellat facere consequatur, ipsum Deleniti ea esse veritatis reiciendis quia magnam? Mollitia impedit dolor dolorum quod consequuntur id Esse illum.</p>
-              </div>
-              <div class="recent__item">
-                <div class="recent__desktop"></div>
-                <div class="recent__mobile">
-                  <div></div>
-                </div>
-              </div>
+              {% endfor %}
             </div>
           </section>
         </div>
