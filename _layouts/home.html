@@ -6,7 +6,7 @@
       <header class="hero">
         <div class="container hero__header">
           <div class="hero__logo">
-            <img src="/assets/img/dcubed.png" alt="">
+            <img src="assets/img/dcubed.png" alt="">
             <small>dcubed</small>
           </div>
         </div>
@@ -129,12 +129,7 @@
             <div class="recent__wrap">
               {% for item in site.projects %}
                 <div class="recent__item">
-                  <div class="recent__hero">
-                    <div class="recent__desktop">
-                      <div class="recent__desktop-buttons"></div>
-                      <div class="recent__desktop-search"></div>
-                      <div class="recent__desktop-screen" style="background-image: url(assets/img/ldu-desktop.png)"></div>
-                    </div>
+                  <div class="recent__hero recent__hero--{{ item.projectId }}">
                     <div class="recent__mobile">
                       <div style="background-image: url(assets/img/ldu-mobile.png)"></div>
                     </div>

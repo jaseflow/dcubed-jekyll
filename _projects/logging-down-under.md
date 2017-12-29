@@ -1,5 +1,6 @@
 ---
 layout: project
 title: Logging Down Under
-description: DigData streamlined the data distribution process for Logging Down Under
+projectId: ldu
+description: Customer Data App
 ---
